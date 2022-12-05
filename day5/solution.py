@@ -10,7 +10,7 @@ stacks=[['H','T','Z','D'],
         ['D','L','V','Z','R','H','Q'],
         ['B','H','G','N','F','Z','L','D']]
 
-
+#part 1
 """ for line in sys.stdin:
   line = line.strip()
   line_list = line.split(' ')
@@ -27,7 +27,7 @@ for stack in stacks:
   message.append(stack[-1])
 print(''.join(message)) """
 
-
+#part 2
 for line in sys.stdin:
   line = line.strip()
   line_list = line.split(' ')
@@ -43,4 +43,3 @@ message=[]
 for stack in stacks:
   message.append(stack[-1])
 print(''.join(message))
-
